@@ -2,11 +2,26 @@ header {
   margin: 10px 0;
 }
 
-header nav ul {
+header nav > ul {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-header nav ul a {
+header nav > ul > li > a {
   font-size: 18px;
+  color: black;
+}
+
+header nav ul .dropdown {
+  display: none;
+  background-color: lightcoral;
+
+  position: absolute;
+}
+header nav .dropdown li a {
+  display: block;
+  padding: 5px 10px;
+}
+header nav ul:hover .dropdown {
+  display: block;
 }
