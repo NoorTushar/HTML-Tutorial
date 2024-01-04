@@ -110,3 +110,59 @@
   <footer></footer>
 </body>
 ```
+
+### Table
+
+```html
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="employee-section">
+      <h2>Employee Table</h2>
+      <table>
+        <caption>
+          Employee Salary Table
+        </caption>
+        <thead>
+          <th>Sl.No</th>
+          <th>Employee Name</th>
+          <th>Department</th>
+          <th>Salary</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Alex</td>
+            <td>Marketing</td>
+            <td>BDT 10,000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>Operations</td>
+            <td>BDT 20,000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Tim</td>
+            <td>Finance</td>
+            <td>BDT 30,000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4"><b>Total Employees: 3</b></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+```
