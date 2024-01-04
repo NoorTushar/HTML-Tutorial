@@ -14,3 +14,35 @@ header {
   display: block;
   margin: 10px 0;
 }
+fieldset {
+  margin: 5px 0 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+fieldset legend {
+  margin-left: 20px;
+}
+fieldset label {
+  padding-left: 10px;
+}
+fieldset label input {
+  margin-right: 7px;
+}
+
+.instruction {
+  padding: 10px;
+}
+.instruction textarea {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  resize: none;
+}
