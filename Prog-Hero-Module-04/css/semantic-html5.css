@@ -1,0 +1,34 @@
+header {
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header nav ul a {
+  font-size: 18px;
+}
+
+article {
+  margin: 20px 0;
+  padding: 20px;
+}
+article header p {
+  padding: 5px 0 10px;
+}
+article figure {
+  margin: 5px 0 20px;
+}
+article section {
+  margin: 20px 0px;
+}
+
+article footer {
+  text-align: left;
+}
+footer {
+  text-align: center;
+  padding: 10px 0px;
+}
