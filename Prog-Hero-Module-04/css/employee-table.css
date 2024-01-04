@@ -1,0 +1,24 @@
+.employee-section {
+  width: 40%;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.employee-section h2 {
+  margin-bottom: 20px;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+thead,
+tfoot {
+  background-color: rgb(190, 190, 190);
+}
