@@ -1,16 +1,3 @@
-header {
-  margin: 10px 0;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-header nav ul a {
-  font-size: 18px;
-}
-
 article {
   margin: 20px 0;
   padding: 20px;

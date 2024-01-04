@@ -1,0 +1,12 @@
+header {
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header nav ul a {
+  font-size: 18px;
+}
