@@ -37,5 +37,8 @@
       </footer>
     </article>
   </main>
+  <footer>
+    <!-- Footer Section -->
+  </footer>
 </body>
 ```

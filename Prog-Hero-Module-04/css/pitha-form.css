@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.form-section {
+  max-width: 30%;
+  margin: 0 auto;
+  background-color: beige;
+  padding: 20px;
+}
+.form-section form label {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
