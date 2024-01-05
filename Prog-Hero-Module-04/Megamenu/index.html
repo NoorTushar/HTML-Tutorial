@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega-Menu</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <style>
+      .banner {
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 style="text-align: center; margin: 20px 0">Semantic Markups</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio-video.html">Audio/Video</a></li>
+          <li><a href="employee-table.html">Employees</a></li>
+          <li><a href="semantic-html5.html">Semantic-Markups</a></li>
+          <li>
+            <a href="pitha-form.html">Pitha Form</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="audio-video.html">Audio/Video</a></li>
+              <li>
+                <a href="employee-table.html">Employees</a>
+                <ul class="dropdown">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="audio-video.html">Audio/Video</a></li>
+                  <li><a href="employee-table.html">Employees</a></li>
+                  <li>
+                    <a href="semantic-html5.html">Semantic-Markups</a>
+                    <ul class="dropdown">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="audio-video.html">Audio/Video</a></li>
+                      <li><a href="employee-table.html">Employees</a></li>
+                      <li>
+                        <a href="semantic-html5.html">Semantic-Markups</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="semantic-html5.html">Semantic-Markups</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <img src="../images/mountain.jpg" alt="" />
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll("a").forEach((a) => {
+        console.log((a.href = "#"));
+      });
+    </script>
+  </body>
+</html>
