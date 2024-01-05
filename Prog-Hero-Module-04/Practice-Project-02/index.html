@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Project 02</title>
+  </head>
+  <body>
+    <h2>Feedback Form - Storytelling Contest</h2>
+    <form>
+      <label for="name"
+        >Your Name:
+        <input type="text" name="name" id="name" placeholder="Your Name"
+      /></label>
+      <br />
+      <!-- email field -->
+      <label for="email"
+        >Your Email:
+        <input type="email" name="email" id="email" placeholder="Your Email"
+      /></label>
+      <br />
+      <!-- phone field -->
+      <label for="phone"
+        >Your Phone:
+        <input type="text" name="name" id="phone" placeholder="Your Phone"
+      /></label>
+      <br />
+
+      <fieldset>
+        <legend>Share your feedback</legend>
+        <textarea name="feedback" id="feedback" cols="100" rows="20"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Rate the show</legend>
+        <select name="rate" id="rate">
+          <option value="">Click Here</option>
+          <option value="bad">Bad</option>
+          <option value="average">Average</option>
+          <option value="dood">Good</option>
+          <option value="excellent">Excellent</option>
+        </select>
+      </fieldset>
+      <div>
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
